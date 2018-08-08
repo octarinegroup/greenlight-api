@@ -9,7 +9,7 @@ module.exports = {
       last_name: "Moparthi",
       joined_by: "local",
       email_verified: true,
-      phone_number: "6032330060",
+      phone_number: "9087867885",
       preferred_method: "text",
       email: "siddhu.moparthi@gmail.com",
       company_name: "Octarine Group LLC",

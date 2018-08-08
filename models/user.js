@@ -10,13 +10,12 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     first_name: DataTypes.STRING,
     last_name: DataTypes.STRING,
-    user_id: DataTypes.INTEGER,
     company_name: DataTypes.STRING
   }, {
     underscored: true
   })
   User.associate = function(models) {
-    // associations can be defined here
+    User.hasOne(models.UserInfo)
   }
   return User
 }
