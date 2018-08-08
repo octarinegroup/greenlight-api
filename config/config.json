@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "sidmoparthi",
+    "password": "",
+    "database": "greenlight_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "underscored": true
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "greenlight_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "greenlight_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
